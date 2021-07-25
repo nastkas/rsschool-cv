@@ -1,1 +1,1 @@
-https://nastkas.github.io/rsschool-cvg
+https://nastkas.github.io/rsschool-cv
