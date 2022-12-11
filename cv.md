@@ -1,6 +1,6 @@
 **Tregubova Anastasiya**
 **+375 (29) 3185875**
-**nastya.by@mail.ru** — preferred means of communication
+**sedos.anastasiya@mail.ru** — preferred means of communication
 *Reside in*: Minsk
 **Senior Procurement Specialist** 
 May 2015 — till now
