@@ -13,25 +13,17 @@
   }
   
   .abs-center {
-    display: false;
     position: absolute;
-    margin: false;
     top: 35%;
     left: 50%;
-    right: false;
-    bottom: false;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 88%;
   }
   .abs-bottom {
-      display: false;
       position: absolute;
-      margin: false;
       top:65%;
       left: 50%;
-      right: false;
-      bottom: false;
       transform: translate(-50%, -50%);
       text-align: center;
       width: 88%;
@@ -48,7 +40,6 @@
   }
   body:before {
     content: "";
-    display: false;
     position: fixed;
     margin: 0;
     top: 0;
@@ -101,10 +92,7 @@
       font-size: 14px;
     }
   .name {
-    display: false;
     position: absolute;
-    margin: false;
-    top: false;
     left: calc(350px + 5%);
     right: 0;
     bottom: 0;
@@ -120,25 +108,18 @@
     width: 94%;
   }
   .side-bar {
-    display: false;
     position: absolute;
-    margin: false;
     top: 60px;
     left: 5%;
-    right: false;
     bottom: 0;
     width: 350px;
     background-color: #f7e0c1;
     padding: 320px 30px 50px;
   }
   .photo {
-    display: false;
     position: absolute;
-    margin: false;
     top: 70px;
     left: 70px;
-    right: false;
-    bottom: false;
     height: 210px;
     width: 210px;
   }
@@ -153,13 +134,9 @@
   }
   .social:before {
     content: "";
-    display: false;
     position: absolute;
-    margin: false;
     top: -4px;
     left: 10px;
-    right: false;
-    bottom: false;
     height: 35px;
     width: 35px;
     background-size: cover !important;
