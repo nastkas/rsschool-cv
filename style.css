@@ -1,0 +1,133 @@
+/* inika-regular - latin */
+@font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inika-v21-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/inika-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/inika-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/inika-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/inika-v21-latin-regular.svg#Inika') format('svg'); /* Legacy iOS */
+  }
+  /* inika-700 - latin */
+  @font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inika-v21-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/inika-v21-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/inika-v21-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/inika-v21-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/inika-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/inika-v21-latin-700.svg#Inika') format('svg'); /* Legacy iOS */
+  }
+  /* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/inter-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/inter-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/inter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v12-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/inter-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/inter-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/inter-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/inter-v12-latin-700.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+  .body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #636060;
+  }
+  .wrapper{
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+  .header{
+    background-color: #d1296f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background-color: #EDF2EC;
+  }
+  .header_logo{
+    padding-top: 35px;
+  }
+  .header_list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header_item{
+    margin-right: 46px;
+  }
+  .header_item:last-child{
+    margin-right: 0;
+  }
+ 
+  .header_link{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 50px;
+    color: #010201;
+    text-decoration: none;
+  }
+  .header_link:hover, .header_link:focus, .header_link:active{
+    color: #E06733;
+  }
+
+
+  /* INTRO starts */
+
+.intro{
+  height: 100vh;
+  background-color:  #EDF2EC;
+  height: 532px;
+  padding-top: 232px;
+}
+
+.intro_title{
+  position: absolute;
+  width: 549px;
+  height: 340px;
+  padding-left: 782px;
+  padding-top: 98px;
+  font-size: 45px;
+  line-height: 50px;
+  font-family: 'Inter';
+  color: #717171;
+  font-weight: 700;
+  
+}
+
+
+  /* INTRO ends */
